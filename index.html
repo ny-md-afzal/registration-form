@@ -1,17 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h2>i am here</h2>
-    <h1>i am Ray</h1>
-    <h1>i am cool programmer</h1>
-    <h1>i am full stack dev</h1>
-    <h1>i love chocolate</h1>
-    <h1> i am bored</h1>
-    
+
+    <div class="container">
+        <h2>Regstration form</h2>
+        <form action=".php" class="form">
+            <div class="name">
+                <label for="name">First Name</label>
+                <input type="text" placeholder="enter your name" id="name">
+
+
+            </div>
+
+            <div> <label for="name">Last Name</label>
+                <input type="text" placeholder="enter your name" id="name">
+            </div>
+            <div class="colum">
+                <div>
+                    <label for="DOB">DOB</label>
+                    <input type="date">
+
+                </div>
+                <div>
+
+                    <select name="my coutry" id="coutry">
+                        <option value="ind" hidden>country</option>
+                        <option value="ind">India</option>
+                        <option value="ind">America</option>
+                        <option value="ind">Africa</option>
+                        <option value="ind"> South Africa</option>
+                        <option value="ind">Srilanka</option>
+                        <option value="ind">Russia</option>
+                    </select>
+                </div>
+            </div>
+            <div class="gender">
+                <h4 for="" style="font-size: 1.1rem;">Gender:</h4>
+
+                <input type="radio" id="male" name="gender">
+                <label for="male">male</label>
+
+                <input type="radio" id=" female" name="gender">
+                <label for="female"> female</label>
+
+                <input type="radio" id="other" name="gender">
+                <label for="other">other</label>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="enter your email">
+
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="password">
+
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <div>
+                        <p>accept your <a href="#">term & conditions</a></p>
+                    </div>
+
+                </div>
+
+
+                <div class="btn">
+                    <a href="#">Register</a>
+                </div>
+        </form>
+
+    </div>
+
 </body>
+
 </html>
